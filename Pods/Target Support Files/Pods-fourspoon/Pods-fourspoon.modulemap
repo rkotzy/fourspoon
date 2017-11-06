@@ -1,0 +1,6 @@
+framework module Pods_fourspoon {
+  umbrella header "Pods-fourspoon-umbrella.h"
+
+  export *
+  module * { export * }
+}

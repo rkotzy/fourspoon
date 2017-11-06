@@ -14,6 +14,16 @@
 		342CD6EB1FACDFD400ACF736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342CD6E91FACDFD400ACF736 /* LaunchScreen.storyboard */; };
 		342CD6F61FACDFD500ACF736 /* fourspoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342CD6F51FACDFD500ACF736 /* fourspoonTests.swift */; };
 		342CD7011FACDFD500ACF736 /* fourspoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342CD7001FACDFD500ACF736 /* fourspoonUITests.swift */; };
+		342CD70F1FACE10300ACF736 /* FoursquareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342CD70E1FACE10300ACF736 /* FoursquareManager.swift */; };
+		342CD7111FACE10E00ACF736 /* 4sq_categories-emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342CD7101FACE10E00ACF736 /* 4sq_categories-emoji.swift */; };
+		342CD7131FACE11500ACF736 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342CD7121FACE11500ACF736 /* Venue.swift */; };
+		342CD7171FACE76100ACF736 /* PermissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342CD7161FACE76100ACF736 /* PermissionsViewController.swift */; };
+		342CD7191FACE78900ACF736 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342CD7181FACE78900ACF736 /* InitialViewController.swift */; };
+		342CD71B1FACF16400ACF736 /* RKLocationCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342CD71A1FACF16400ACF736 /* RKLocationCheckViewController.swift */; };
+		342CD71E1FAD087300ACF736 /* PickerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342CD71D1FAD087300ACF736 /* PickerData.swift */; };
+		5BD9594804BF1EBA77F186C9 /* Pods_fourspoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88220EAEE28778C0D0EF2B9E /* Pods_fourspoon.framework */; };
+		6F8895C1F366C71689F8A476 /* Pods_fourspoonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B0062B1365A27D380D83B1 /* Pods_fourspoonUITests.framework */; };
+		A89C35E21D2FD4E80E37A865 /* Pods_fourspoonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60D34D53D910614377CBB57 /* Pods_fourspoonTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A269041152BC84C445A1439 /* Pods-fourspoon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fourspoon.release.xcconfig"; path = "Pods/Target Support Files/Pods-fourspoon/Pods-fourspoon.release.xcconfig"; sourceTree = "<group>"; };
 		342CD6DD1FACDFD400ACF736 /* fourspoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fourspoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		342CD6E01FACDFD400ACF736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		342CD6E21FACDFD400ACF736 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,21 @@
 		342CD6FC1FACDFD500ACF736 /* fourspoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fourspoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		342CD7001FACDFD500ACF736 /* fourspoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourspoonUITests.swift; sourceTree = "<group>"; };
 		342CD7021FACDFD500ACF736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342CD70E1FACE10300ACF736 /* FoursquareManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoursquareManager.swift; sourceTree = "<group>"; };
+		342CD7101FACE10E00ACF736 /* 4sq_categories-emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4sq_categories-emoji.swift"; sourceTree = "<group>"; };
+		342CD7121FACE11500ACF736 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		342CD7161FACE76100ACF736 /* PermissionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsViewController.swift; sourceTree = "<group>"; };
+		342CD7181FACE78900ACF736 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		342CD71A1FACF16400ACF736 /* RKLocationCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKLocationCheckViewController.swift; sourceTree = "<group>"; };
+		342CD71D1FAD087300ACF736 /* PickerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerData.swift; sourceTree = "<group>"; };
+		66EDF2DBCAC8806127811597 /* Pods-fourspoonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fourspoonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-fourspoonTests/Pods-fourspoonTests.release.xcconfig"; sourceTree = "<group>"; };
+		82B0062B1365A27D380D83B1 /* Pods_fourspoonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fourspoonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88220EAEE28778C0D0EF2B9E /* Pods_fourspoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fourspoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60D34D53D910614377CBB57 /* Pods_fourspoonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fourspoonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9B291AD0ED1D8FE1BE4832 /* Pods-fourspoon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fourspoon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fourspoon/Pods-fourspoon.debug.xcconfig"; sourceTree = "<group>"; };
+		E604A19675C1591BFB290C08 /* Pods-fourspoonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fourspoonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fourspoonUITests/Pods-fourspoonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F23E35FAB4D3FFF5F16F4A75 /* Pods-fourspoonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fourspoonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-fourspoonUITests/Pods-fourspoonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F56CF0CC4F8CB58A69B455FB /* Pods-fourspoonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fourspoonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fourspoonTests/Pods-fourspoonTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BD9594804BF1EBA77F186C9 /* Pods_fourspoon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A89C35E21D2FD4E80E37A865 /* Pods_fourspoonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8895C1F366C71689F8A476 /* Pods_fourspoonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +110,8 @@
 				342CD6F41FACDFD500ACF736 /* fourspoonTests */,
 				342CD6FF1FACDFD500ACF736 /* fourspoonUITests */,
 				342CD6DE1FACDFD400ACF736 /* Products */,
+				A79C9EBAC1A091E72E5E6BDF /* Pods */,
+				609FA188BCEAE0C6EEB7C4FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +129,9 @@
 			isa = PBXGroup;
 			children = (
 				342CD6E01FACDFD400ACF736 /* AppDelegate.swift */,
-				342CD6E21FACDFD400ACF736 /* ViewController.swift */,
+				342CD7141FACE11B00ACF736 /* Model */,
+				342CD71C1FACF16A00ACF736 /* Controllers */,
+				342CD7151FACE74500ACF736 /* Views */,
 				342CD6E41FACDFD400ACF736 /* Main.storyboard */,
 				342CD6E71FACDFD400ACF736 /* Assets.xcassets */,
 				342CD6E91FACDFD400ACF736 /* LaunchScreen.storyboard */,
@@ -125,6 +158,58 @@
 			path = fourspoonUITests;
 			sourceTree = "<group>";
 		};
+		342CD7141FACE11B00ACF736 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				342CD70E1FACE10300ACF736 /* FoursquareManager.swift */,
+				342CD7121FACE11500ACF736 /* Venue.swift */,
+				342CD7101FACE10E00ACF736 /* 4sq_categories-emoji.swift */,
+				342CD71D1FAD087300ACF736 /* PickerData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		342CD7151FACE74500ACF736 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				342CD7181FACE78900ACF736 /* InitialViewController.swift */,
+				342CD6E21FACDFD400ACF736 /* ViewController.swift */,
+				342CD7161FACE76100ACF736 /* PermissionsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		342CD71C1FACF16A00ACF736 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				342CD71A1FACF16400ACF736 /* RKLocationCheckViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		609FA188BCEAE0C6EEB7C4FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88220EAEE28778C0D0EF2B9E /* Pods_fourspoon.framework */,
+				A60D34D53D910614377CBB57 /* Pods_fourspoonTests.framework */,
+				82B0062B1365A27D380D83B1 /* Pods_fourspoonUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A79C9EBAC1A091E72E5E6BDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD9B291AD0ED1D8FE1BE4832 /* Pods-fourspoon.debug.xcconfig */,
+				0A269041152BC84C445A1439 /* Pods-fourspoon.release.xcconfig */,
+				F56CF0CC4F8CB58A69B455FB /* Pods-fourspoonTests.debug.xcconfig */,
+				66EDF2DBCAC8806127811597 /* Pods-fourspoonTests.release.xcconfig */,
+				E604A19675C1591BFB290C08 /* Pods-fourspoonUITests.debug.xcconfig */,
+				F23E35FAB4D3FFF5F16F4A75 /* Pods-fourspoonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 342CD7051FACDFD500ACF736 /* Build configuration list for PBXNativeTarget "fourspoon" */;
 			buildPhases = (
+				D7893291B4395A22EDEA4E29 /* [CP] Check Pods Manifest.lock */,
 				342CD6D91FACDFD400ACF736 /* Sources */,
 				342CD6DA1FACDFD400ACF736 /* Frameworks */,
 				342CD6DB1FACDFD400ACF736 /* Resources */,
+				F9690F11A185EABC002DB81D /* [CP] Embed Pods Frameworks */,
+				EE280E7742F789CB3094CD12 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 342CD7081FACDFD500ACF736 /* Build configuration list for PBXNativeTarget "fourspoonTests" */;
 			buildPhases = (
+				5673130060831BF139FC6E95 /* [CP] Check Pods Manifest.lock */,
 				342CD6ED1FACDFD400ACF736 /* Sources */,
 				342CD6EE1FACDFD400ACF736 /* Frameworks */,
 				342CD6EF1FACDFD400ACF736 /* Resources */,
+				486C66B16011836A819FA3D9 /* [CP] Embed Pods Frameworks */,
+				4D7877458B1623B48777ADB6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 342CD70B1FACDFD500ACF736 /* Build configuration list for PBXNativeTarget "fourspoonUITests" */;
 			buildPhases = (
+				0F118C5244D2C063FEE4716D /* [CP] Check Pods Manifest.lock */,
 				342CD6F81FACDFD500ACF736 /* Sources */,
 				342CD6F91FACDFD500ACF736 /* Frameworks */,
 				342CD6FA1FACDFD500ACF736 /* Resources */,
+				C3E04916E8F4482D3A53B312 /* [CP] Embed Pods Frameworks */,
+				55216FC48BEAFA8684F09CDF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +348,176 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F118C5244D2C063FEE4716D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fourspoonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		486C66B16011836A819FA3D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fourspoonTests/Pods-fourspoonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D7877458B1623B48777ADB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fourspoonTests/Pods-fourspoonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55216FC48BEAFA8684F09CDF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fourspoonUITests/Pods-fourspoonUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5673130060831BF139FC6E95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fourspoonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3E04916E8F4482D3A53B312 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fourspoonUITests/Pods-fourspoonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7893291B4395A22EDEA4E29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fourspoon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE280E7742F789CB3094CD12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fourspoon/Pods-fourspoon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9690F11A185EABC002DB81D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-fourspoon/Pods-fourspoon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FoursquareAPIClient/FoursquareAPIClient.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftLocation/SwiftLocation.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoursquareAPIClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftLocation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fourspoon/Pods-fourspoon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		342CD6D91FACDFD400ACF736 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				342CD6E31FACDFD400ACF736 /* ViewController.swift in Sources */,
+				342CD71B1FACF16400ACF736 /* RKLocationCheckViewController.swift in Sources */,
+				342CD7191FACE78900ACF736 /* InitialViewController.swift in Sources */,
+				342CD7131FACE11500ACF736 /* Venue.swift in Sources */,
+				342CD70F1FACE10300ACF736 /* FoursquareManager.swift in Sources */,
 				342CD6E11FACDFD400ACF736 /* AppDelegate.swift in Sources */,
+				342CD7111FACE10E00ACF736 /* 4sq_categories-emoji.swift in Sources */,
+				342CD7171FACE76100ACF736 /* PermissionsViewController.swift in Sources */,
+				342CD71E1FAD087300ACF736 /* PickerData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +681,7 @@
 		};
 		342CD7061FACDFD500ACF736 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD9B291AD0ED1D8FE1BE4832 /* Pods-fourspoon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +697,7 @@
 		};
 		342CD7071FACDFD500ACF736 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A269041152BC84C445A1439 /* Pods-fourspoon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +713,7 @@
 		};
 		342CD7091FACDFD500ACF736 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F56CF0CC4F8CB58A69B455FB /* Pods-fourspoonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +731,7 @@
 		};
 		342CD70A1FACDFD500ACF736 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66EDF2DBCAC8806127811597 /* Pods-fourspoonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +749,7 @@
 		};
 		342CD70C1FACDFD500ACF736 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E604A19675C1591BFB290C08 /* Pods-fourspoonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +766,7 @@
 		};
 		342CD70D1FACDFD500ACF736 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F23E35FAB4D3FFF5F16F4A75 /* Pods-fourspoonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
